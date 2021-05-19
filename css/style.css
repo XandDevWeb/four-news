@@ -98,21 +98,21 @@ main section.news
     gap: 20px;
 }
 
-main section.news a
+main section.news article a
 {
     cursor: pointer;
     text-decoration: none;
     color: var(--color-main);
 }
 
-main section.news a article
+main section.news article
 {
     padding: 12px;
     border-radius: 10px;
     background-color: rgb(216, 178, 122);
 }
 
-main section.news a article div.materia
+main section.news article  a div.materia
 {
     width: 270px;
     height: 250px;
@@ -121,7 +121,7 @@ main section.news a article div.materia
     background-size: initial;
 }
 
-main section.news a article h4
+main section.news article a h4
 {
     text-align: center;
     padding: 4px;
