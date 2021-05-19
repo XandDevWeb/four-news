@@ -1,0 +1,156 @@
+:root
+{
+    --background-header: #042a35;
+    --color-header: #f0f8ff;
+
+    --background-main: #d7f4ff;
+    --color-main: #02060a;
+
+    --background-footer: #729aa5;
+    --color-footer: #02060a;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+
+    font-family: consolas;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    padding: 10px 15px;
+
+    background-color: var(--background-header);
+    color: var(--color-header);
+
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header div.menu
+{
+    cursor: pointer;
+}
+
+header h1
+{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+
+    cursor: pointer;
+}
+
+header div.magnifier
+{
+    padding: 2px;
+    border-radius: 50%;
+    background-color: #f5deb333;
+
+    cursor: pointer;
+}
+
+/* Main */
+main
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+
+    padding: 30px 12px;
+
+    background-color: var(--background-main);
+    color: var(--color-main);
+}
+
+main section.news
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main section.news a
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+main section.news a article
+{
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgb(216, 178, 122);
+}
+
+main section.news a article div.materia
+{
+    width: 270px;
+    height: 250px;
+    
+    background-position: center;
+    background-size: initial;
+}
+
+main section.news a article h4
+{
+    text-align: center;
+    padding: 4px;
+}
+
+main article
+{
+    padding: 0 25vw;
+}
+
+main article h4
+{
+    margin-bottom: 15px;
+}
+
+main article p
+{
+    margin: 10px 0;
+    text-indent: 30px;
+}
+
+@media screen and (max-width: 450px)
+{
+    main article
+    {
+        padding: 12px;
+    }
+}
+
+/* Footer */
+footer
+{
+    padding: 15px;
+    text-align: center;
+
+    color: var(--color-footer);
+    background-color: var(--background-footer);
+}
