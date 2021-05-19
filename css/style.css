@@ -151,7 +151,7 @@ main a
 
 @media screen and (max-width: 450px)
 {
-    header h1
+    header a h1
     {
         font-size: 1.5rem;
     }
