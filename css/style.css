@@ -110,9 +110,10 @@ main section.news article
     padding: 12px;
     border-radius: 10px;
     background-color: rgb(216, 178, 122);
+    max-width: 290px;
 }
 
-main section.news article  a div.materia
+main section.news article div.materia
 {
     width: 270px;
     height: 250px;
@@ -140,7 +141,10 @@ main article h4
 main article p
 {
     margin: 10px 0;
-    text-indent: 30px;
+    text-indent: 40px;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
 
 main a
