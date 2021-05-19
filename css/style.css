@@ -51,7 +51,13 @@ header div.menu
     cursor: pointer;
 }
 
-header h1
+header a
+{
+    text-decoration: none;
+    color: var(--color-header);
+}
+
+header a h1
 {
     text-transform: uppercase;
     font-size: 2.3rem;
@@ -135,6 +141,12 @@ main article p
 {
     margin: 10px 0;
     text-indent: 30px;
+}
+
+main a
+{
+    align-self: flex-end;
+    margin-right: 30px;
 }
 
 @media screen and (max-width: 450px)
