@@ -178,8 +178,16 @@ main a
 footer
 {
     padding: 15px;
-    text-align: center;
-
     color: var(--color-footer);
     background-color: var(--background-footer);
+
+}
+footer p
+{
+    text-align: center;
+}
+
+footer p span
+{
+    display: block;
 }
